@@ -28,7 +28,6 @@ The One Billion Meals Popup is a call to action popup designed to encourage user
 - Adobe Photoshop: Used for editing and optimizing images used in the popup.
 
 Implementation: The Give a Meal Popup for the One Billion Meals Campaign can experienced by visiting [theinnercitymission.ngo/1billionmeals](https://theinnercitymission.ngo/1billionmeals) *on your mobile device*.
-<<<<<<< HEAD
 
 <hr><br>
 
@@ -37,30 +36,6 @@ Implementation: The Give a Meal Popup for the One Billion Meals Campaign can exp
 
 ### [Give a Meal Popup for HomePage](https://www.figma.com/proto/)
 
-The Give a Meal Popup is a mobile-responsive call to action designed to inspire users who are browsing the InnerCity Mission website on their mobile devices to download our Give a Meal mobile app. This popup offers an attractive and intuitive interface that effectively prompts users to take action, enhancing user engagement and encouraging app downloads.
-=======
-
-<hr><br>
-
-<!-- 
-333333 get the link from joan 333333
->>>>>>> 5ece3b0c686bcb5fa69931471cdc534b402001f4
-
-### [Give a Meal Popup for HomePage](https://www.figma.com/proto/)
-
-<<<<<<< HEAD
-![GitHub Logo](images/dummy.png)
-
-
- Technologies/Tools Used: 
-- Figma: Utilized for creating interactive prototypes and gathering feedback during the design process.
-- Adobe Photoshop: Used for editing and optimizing images used in the popup.
-
-Implementation: The Give a Meal Popup was implemented on the InnerCity Mission's landing page. You can experience it firsthand by visiting [theinnercitymission.ngo](https://theinnercitymission.ngo) *on your mobile device*. 
--->
-
-
-=======
 The Give a Meal Popup is a mobile-responsive call to action designed to inspire users who are browsing the InnerCity Mission website on their mobile devices to download our Give a Meal mobile app. This popup offers an attractive and intuitive interface that effectively prompts users to take action, enhancing user engagement and encouraging app downloads.
 
 
@@ -75,7 +50,6 @@ Implementation: The Give a Meal Popup was implemented on the InnerCity Mission's
 -->
 
 
->>>>>>> 5ece3b0c686bcb5fa69931471cdc534b402001f4
 ### [Virtual Food Drive](https://www.figma.com/file/5zy3JtE2vdQhxzKVltSxVS)
 
 **Description**
