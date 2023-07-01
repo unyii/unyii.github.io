@@ -28,6 +28,7 @@ The One Billion Meals Popup is a call to action popup designed to encourage user
 - Adobe Photoshop: Used for editing and optimizing images used in the popup.
 
 Implementation: The Give a Meal Popup for the One Billion Meals Campaign can experienced by visiting [theinnercitymission.ngo/1billionmeals](https://theinnercitymission.ngo/1billionmeals) *on your mobile device*.
+<<<<<<< HEAD
 
 <hr><br>
 
@@ -36,6 +37,30 @@ Implementation: The Give a Meal Popup for the One Billion Meals Campaign can exp
 
 ### [Give a Meal Popup for HomePage](https://www.figma.com/proto/)
 
+The Give a Meal Popup is a mobile-responsive call to action designed to inspire users who are browsing the InnerCity Mission website on their mobile devices to download our Give a Meal mobile app. This popup offers an attractive and intuitive interface that effectively prompts users to take action, enhancing user engagement and encouraging app downloads.
+=======
+
+<hr><br>
+
+<!-- 
+333333 get the link from joan 333333
+>>>>>>> 5ece3b0c686bcb5fa69931471cdc534b402001f4
+
+### [Give a Meal Popup for HomePage](https://www.figma.com/proto/)
+
+<<<<<<< HEAD
+![GitHub Logo](images/dummy.png)
+
+
+ Technologies/Tools Used: 
+- Figma: Utilized for creating interactive prototypes and gathering feedback during the design process.
+- Adobe Photoshop: Used for editing and optimizing images used in the popup.
+
+Implementation: The Give a Meal Popup was implemented on the InnerCity Mission's landing page. You can experience it firsthand by visiting [theinnercitymission.ngo](https://theinnercitymission.ngo) *on your mobile device*. 
+-->
+
+
+=======
 The Give a Meal Popup is a mobile-responsive call to action designed to inspire users who are browsing the InnerCity Mission website on their mobile devices to download our Give a Meal mobile app. This popup offers an attractive and intuitive interface that effectively prompts users to take action, enhancing user engagement and encouraging app downloads.
 
 
@@ -50,6 +75,7 @@ Implementation: The Give a Meal Popup was implemented on the InnerCity Mission's
 -->
 
 
+>>>>>>> 5ece3b0c686bcb5fa69931471cdc534b402001f4
 ### [Virtual Food Drive](https://www.figma.com/file/5zy3JtE2vdQhxzKVltSxVS)
 
 **Description**
@@ -161,7 +187,6 @@ The Send Portions page was implemented in [theinnercitymission.ngo/sendportions]
 ### [W.A.P Super Admin Complete Dashboard Flow](https://www.figma.com/file/NC5lnXyDr6Bui5Gp1iAK2Q/)
 
 **Description**
-Summary:
 
 I contributed to the design of the W.A.P Super Admin Complete Dashboard Flow, a central platform for WATCH Ambassadors to manage and monitor their campaigns. This super admin dashboard offers features such as creating campaigns, generating custom shareable links, and tracking givings & donations made through these links. The goal of the design was to provide a comprehensive and user-friendly interface that enables efficient campaign management and accurate monitoring of giving activities. 
 
@@ -181,55 +206,79 @@ This was a collaborative project with [Peace Adenekan](https://www.linkedin.com/
 The WAP project page was implemented in [wap.theinnercitymission.ngo](https://wap.theinnercitymission.ngo/).
 
 <hr><br> 
- 
+
+
+
+
+
+
+
+
+
+
+
+### [Praying for the Needy Login Screen](https://www.figma.com/file/XCSFxAn2UFPlnxiibM2t72)
+
+**Description**
+
+I revamped the existing design of the "Praying for the Needy" login screen by making a user-friendly interface with a clean and modern design aesthetic. The harmonious color scheme, legible typography, and intuitive layout create a seamless and visually appealing experience for users.
+
+**Technologies/Tools Used:**
+
+- Figma: Utilized for creating interactive prototypes and gathering feedback during the design process.
+
+
+[![Prayer Login Login](images/prayer-login.png)](https://www.figma.com/proto/XCSFxAn2UFPlnxiibM2t72/Praying-for-the-needy-Log-in?type=design&node-id=1-2&t=2ognaGJFpHMO6jXA-8&scaling=scale-down&hide-ui=1)
+
+**Implementation:** 
+
+The login page was implemented in [prayer.theinnercitymission.ngo](https://prayer.theinnercitymission.ngo/).
+
+
+
+
+
+
+
+
+<hr><br>
+
+### Colouring Dreams Conference (CDCON)
++ [Version 1.0](https://www.figma.com/file/DtDb6jbw7fLjArrdpwDvYq)
++ [Version 2.0](https://www.figma.com/file/x2YTKKqBMlCtLcuRoUV80X)
+
+**Description**
+
+I designed the UI for the Colouring Dreams Conference (CDCON), a significant global event that unites partners and stakeholders of the InnerCity Mission. This interactive prototype showcases the evolution of the conference's user interface through Version 1.0 and Version 2.0. 
+
+The CDCON aims to bring together individuals from the global network to contribute to the organization's mission of providing support and making a positive impact on the lives of underprivileged communities. The UI/UX design ensures a seamless and engaging user experience, allowing participants to easily navigate through the conference's information and registration process.
+
+**Technologies/Tools Used:**
+
+- Figma: Utilized for creating interactive prototypes and gathering feedback during the design process.
+
+[![CDCON Mobile 1](images/cdcon-mobile-1.png)![CDCON Mobile 2](images/cdcon-mobile-2.png)](https://www.figma.com/proto/DtDb6jbw7fLjArrdpwDvYq/CDC?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down)
+
+**Implementation:** 
+
+The CDCON design was implemented in [theinnercitymission.ngo/cdcon](https://theinnercitymission.ngo/cdcon).
+
+Please note that the page has undergone several changes since its initial implementation, reflecting continuous improvements and enhancements to optimize user engagement and interaction.
+
+
 ## Experience
 
-- UI/UX Designer at [The InnerCity Mission for Children](https://www.companywebsite.com) - 2020 - Date
+- UI/UX Designer at [The InnerCity Mission for Children](https://theinnercitymission.ngo) - 2020 - Date
 
 ## Contact Me
 
-- Email: sylvesterjoannaunyii@gmail.com
+- Email: [sylvesterjoannaunyii@gmail.com](mailto:sylvesterjoannaunyii@gmail.com)
 - LinkedIn: [Joanna Sylvester](https://www.linkedin.com/in/joanna-sylvester)
 
 
-
-
 <!-- f
-
-
 ## What's in it for me?
 
 By hiring me, you can expect a dedicated UI/UX Designer who is proficient in design tools such as Sketch, Figma, and Adobe XD. I have experience in conducting user research, usability testing, and implementing user-centered design processes. With my strong portfolio and understanding of design principles, I am confident in delivering visually compelling graphics and assets for promotional materials. Additionally, I am eager to contribute to a collaborative work environment, grow professionally, and seize opportunities for advancement.
- 
 
-
-[![GitHub Logo](images/dummy.png)](https://www.google.com)
-
-
-cdcon version 1
-
-
-https://www.figma.com/proto/DtDb6jbw7fLjArrdpwDvYq
-
-
-
-version 2
-
-
-
-
-
-
-WAP
-
-https://www.figma.com/proto/NC5lnXyDr6Bui5Gp1iAK2Q
-
-
-
-
-
-
-
-
-https://www.figma.com/proto/l2n0IhKdIaxz76pRmoUdwV
 -->
