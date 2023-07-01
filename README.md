@@ -191,16 +191,17 @@ The WAP project page was implemented in [wap.theinnercitymission.ngo](https://wa
 - Email: sylvesterjoannaunyii@gmail.com
 - LinkedIn: [Joanna Sylvester](https://www.linkedin.com/in/joanna-sylvester)
 
+
+
+
+<!-- f
+
+
 ## What's in it for me?
 
 By hiring me, you can expect a dedicated UI/UX Designer who is proficient in design tools such as Sketch, Figma, and Adobe XD. I have experience in conducting user research, usability testing, and implementing user-centered design processes. With my strong portfolio and understanding of design principles, I am confident in delivering visually compelling graphics and assets for promotional materials. Additionally, I am eager to contribute to a collaborative work environment, grow professionally, and seize opportunities for advancement.
  
 
-
-
-
-
-<!-- f
 
 [![GitHub Logo](images/dummy.png)](https://www.google.com)
 
