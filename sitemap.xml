@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- MAIN PORTFOLIO -->
+  <url>
+    <loc>https://unyii.github.io/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://unyii.github.io/images/joanna-sylvester-preview.png</image:loc>
+      <image:title>Joanna Sylvester - Portfolio Preview</image:title>
+    </image:image>
+  </url>
+
+  <!-- PAGE 2 -->
+  <url>
+    <loc>https://unyii.github.io/2/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+
+    <image:image>
+      <image:loc>https://unyii.github.io/images/preview.png</image:loc>
+      <image:title>Portfolio Section</image:title>
+    </image:image>
+  </url>
+
+</urlset>

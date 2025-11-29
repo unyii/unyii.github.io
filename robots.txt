@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unyii.github.io/sitemap.xml
