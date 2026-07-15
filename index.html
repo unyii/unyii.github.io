@@ -1228,11 +1228,15 @@
             submitButton.classList.add("opacity-75");
 
             alert(result.message);
+            console.log(result.message);
 
             form.reset();
+            submitButton.disabled = false;
+
 
           } catch (error) {
             alert(error.message || "Failed to send message.");
+            console.log(error.message);
 
             submitButton.disabled = false;
             submitButton.textContent = "Send Message";
