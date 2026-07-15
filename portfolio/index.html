@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) - replace ID with your own if needed -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>Joanna Sylvester | IT Support & CRM</title>
+  <meta name="description"
+    content="IT Support & CRM professional focused on customer experience, internal tools, and client-facing operations. I help teams keep their systems running smoothly and customers supported." />
+  <meta name="keywords"
+    content="Joanna Sylvester, IT support, CRM, customer support, help desk, client-facing operations, customer experience, technical troubleshooting, internal tools" />
+  <link rel="canonical" href="https://joannasylvester.github.io/portfolio/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://joannasylvester.github.io/portfolio/" />
+  <meta property="og:title" content="Joanna Sylvester - IT Support & CRM" />
+  <meta property="og:description"
+    content="IT Support & CRM professional focused on customer experience, internal tools, and client-facing operations." />
+  <meta property="og:image" content="https://joannasylvester.github.io/images/preview.png" />
+  <meta property="og:site_name" content="Joanna Sylvester - IT Support & CRM Portfolio" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://joannasylvester.github.io/portfolio/" />
+  <meta name="twitter:title" content="Joanna Sylvester - IT Support & CRM" />
+  <meta name="twitter:description"
+    content="IT Support & CRM professional focused on customer experience, internal tools, and client-facing operations." />
+  <meta name="twitter:image" content="https://joannasylvester.github.io/images/preview.png" />
+  <meta name="twitter:creator" content="@JoannaSylvester" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Joanna Sylvester",
+      "url": "https://joannasylvester.github.io/portfolio/",
+      "image": "https://joannasylvester.github.io/images/preview.png",
+      "jobTitle": "IT Support & CRM Specialist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "sameAs": [
+        "https://x.com/SylvesterJoann3",
+        "https://linkedin.com/in/Joanna-Sylvester",
+        "https://instagram.com/jo.an.na_sylvester",
+        "https://www.tiktok.com/@JoannaSylvester"
+      ]
+    }
+  </script>
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+  <!-- Stylesheets -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Fonts -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
+    }
+
+    .text-gradient {
+      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .service-card {
+      transition: all 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card {
+      transition: all 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 25px 50px rgba(96, 165, 250, 0.2);
+    }
+
+    .skill-badge {
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .skill-badge:hover {
+      transform: scale(1.05) translateY(-2px);
+    }
+
+    .testimonial-card {
+      transition: transform 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: scale(1.02);
+    }
+
+    .social-icon {
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      transform: translateY(-3px);
+      color: #60a5fa;
+    }
+
+    .nav-link {
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .process-step {
+      position: relative;
+      padding-left: 60px;
+    }
+
+    .process-step::before {
+      content: attr(data-step);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+    }
+
+    .faq-item {
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+      opacity: 1;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <h1 class="text-2xl font-bold">
+          Joanna<span class="text-blue-500">Support</span>
+        </h1>
+      </div>
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="nav-link font-medium text-sm">Home</a>
+        <a href="#skills" class="nav-link font-medium text-sm">Skills</a>
+        <a href="#projects" class="nav-link font-medium text-sm">Projects</a>
+        <a href="#process" class="nav-link font-medium text-sm">Process</a>
+        <a href="#testimonials" class="nav-link font-medium text-sm">Testimonials</a>
+        <a href="#faq" class="nav-link font-medium text-sm">FAQ</a>
+        <a href="#contact" class="nav-link font-medium text-sm">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button class="focus:outline-none" id="menu-button">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-20 pb-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          <span class="text-gradient">IT Support &amp; CRM</span> for People and Teams
+        </h1>
+        <p class="text-xl text-gray-300 mb-3 leading-relaxed">
+          I’m Joanna Sylvester, focused on IT support, CRM, and client-facing operations. I help teams keep their tools
+          stable and their customers heard.
+        </p>
+        <p class="text-lg text-gray-400 mb-8 leading-relaxed">
+          I work across communication tools, cloud storage, and support platforms to troubleshoot issues, guide users,
+          and keep daily operations tidy and clear&nbsp;&mdash; even as I build more professional experience.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 mb-8">
+          <a href="#contact"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg inline-block text-center transition-all">
+            Let’s Work Together
+          </a>
+          <a href="#skills"
+            class="bg-transparent hover:bg-gray-800 text-blue-400 font-semibold py-4 px-8 border border-blue-500 hover:border-transparent rounded-lg inline-block text-center transition-all">
+            View Skills
+          </a>
+        </div>
+        <div class="flex gap-6">
+          <a href="https://linkedin.com/in/Joanna-Sylvester" target="_blank"
+            class="text-gray-400 social-icon hover:text-blue-500">
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a href="https://x.com/SylvesterJoann3" target="_blank" class="text-gray-400 social-icon hover:text-blue-500">
+            <i class="fab fa-x-twitter text-2xl"></i>
+          </a>
+          <a href="https://instagram.com/jo.an.na_sylvester" target="_blank"
+            class="text-gray-400 social-icon hover:text-pink-500">
+            <i class="fab fa-instagram text-2xl"></i>
+          </a>
+          <a href="https://www.tiktok.com/@JoannaSylvester" target="_blank"
+            class="text-gray-400 social-icon hover:text-blue-500">
+            <i class="fab fa-tiktok text-2xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <div class="relative">
+          <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg blur-lg opacity-30">
+          </div>
+          <div class="relative bg-gray-800 border-2 border-gray-700 rounded-lg overflow-hidden shadow-2xl">
+            <img src="/images/joanna-sylvester.png" alt="Joanna Sylvester - IT Support & CRM"
+              class="w-full h-auto object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Core <span class="text-gradient">Skills</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          A mix of technical support, CRM, and customer-facing skills to keep tools working and people supported.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <!-- IT Support & Troubleshooting -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-6">
+            <div
+              class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-headset text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">IT Support &amp; Troubleshooting</h3>
+          </div>
+          <div class="space-y-3">
+            <div class="skill-badge">
+              <span class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold">Helpdesk
+                mindset</span>
+            </div>
+            <div class="skill-badge">
+              <span class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold">Hardware
+                &amp;
+                software checks</span>
+            </div>
+            <div class="skill-badge">
+              <span class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold">Ticket
+                triage</span>
+            </div>
+            <div class="skill-badge">
+              <span class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold">Basic
+                network
+                issues</span>
+            </div>
+          </div>
+          <p class="text-gray-400 mt-6 text-sm">
+            I walk users through clear steps, document what happened, and make sure issues are understood, not just
+            closed.
+          </p>
+        </div>
+
+        <!-- CRM & Customer Relationship Management -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-6">
+            <div
+              class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-users-cog text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">CRM &amp; Customer Data</h3>
+          </div>
+          <div class="space-y-3">
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold">Contact
+                management</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold">Pipeline
+                updates</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold">Notes
+                &amp;
+                activity tracking</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold">Simple
+                automations</span>
+            </div>
+          </div>
+          <p class="text-gray-400 mt-6 text-sm">
+            I keep records tidy, up to date, and useful so teams can actually trust what they see in the CRM.
+          </p>
+        </div>
+
+        <!-- Tools & Collaboration -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-6">
+            <div
+              class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-cloud text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">Tools &amp; Collaboration</h3>
+          </div>
+          <div class="space-y-3">
+            <div class="skill-badge">
+              <span class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold">Google
+                Drive &amp; Docs</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold">Dropbox
+                &amp;
+                cloud storage</span>
+            </div>
+            <div class="skill-badge">
+              <span class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold">Slack
+                &amp;
+                Microsoft Teams</span>
+            </div>
+            <div class="skill-badge">
+              <span class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold">Loom
+                &amp;
+                screen recording</span>
+            </div>
+          </div>
+          <p class="text-gray-400 mt-6 text-sm">
+            I use everyday tools to share information, record quick guides, and make sure people can find what they
+            need.
+          </p>
+        </div>
+
+        <!-- Customer Experience & Communication -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-6">
+            <div
+              class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-comments text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">Customer Experience &amp; Ops</h3>
+          </div>
+          <div class="space-y-3">
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold">Client
+                communication</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold">Basic
+                SLAs &amp; KPIs</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold">Process
+                notes &amp; checklists</span>
+            </div>
+            <div class="skill-badge">
+              <span
+                class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold">Escalation
+                awareness</span>
+            </div>
+          </div>
+          <p class="text-gray-400 mt-6 text-sm">
+            I care about clear language, next steps, and follow-up, so customers feel guided from first message to final
+            solution.
+          </p>
+        </div>
+      </div>
+
+      <div class="p-8 bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg text-center border border-blue-700">
+        <h3 class="text-2xl font-bold mb-3">Where I Am Right Now</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+          <div>
+            <div class="text-4xl font-bold text-blue-400">200+</div>
+            <p class="text-gray-200 mt-2">Support tasks practiced</p>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-purple-400">100+</div>
+            <p class="text-gray-200 mt-2">Hours in IT classes</p>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-pink-400">4+</div>
+            <p class="text-gray-200 mt-2">Key tool sets</p>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-green-400">100%</div>
+            <p class="text-gray-200 mt-2">User-first mindset</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects / Practice Section -->
+  <section id="projects" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Practical <span class="text-gradient">Work</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          A snapshot of how I apply IT support and CRM skills in real and practice scenarios.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500">
+          <div class="h-48 bg-gradient-to-br from-blue-900 to-purple-900 flex items-center justify-center">
+            <i class="fas fa-ticket-alt text-6xl text-blue-400 opacity-20"></i>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">Help Desk Practice Queue</h3>
+            <p class="text-gray-400 mb-6">
+              Simulated ticket queue covering password resets, access issues, slow devices, and basic network checks.
+              Focused on clear notes, step-by-step support, and friendly tone in every reply.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">IT Support</span>
+              <span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">Ticketing
+                style</span>
+              <span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold">User
+                guidance</span>
+            </div>
+            <div class="border-t border-gray-700 pt-4">
+              <p class="text-sm text-gray-400 mb-3">
+                <i class="fas fa-check-circle text-green-400 mr-2"></i>Outcome: Stronger confidence in handling repeated
+                day-to-day requests.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500">
+          <div class="h-48 bg-gradient-to-br from-purple-900 to-pink-900 flex items-center justify-center">
+            <i class="fas fa-address-book text-6xl text-purple-400 opacity-20"></i>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">CRM Contact Cleanup</h3>
+            <p class="text-gray-400 mb-6">
+              Practice project focused on cleaning a sample contact list, adding tags, merging duplicates, and logging
+              key activities so sales and support can see the same story at a glance.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold">CRM</span>
+              <span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold">Data
+                hygiene</span>
+              <span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold">Customer
+                history</span>
+            </div>
+            <div class="border-t border-gray-700 pt-4">
+              <p class="text-sm text-gray-400 mb-3">
+                <i class="fas fa-check-circle text-green-400 mr-2"></i>Outcome: Clearer contact records and easier
+                follow-up.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500">
+          <div class="h-48 bg-gradient-to-br from-green-900 to-blue-900 flex items-center justify-center">
+            <i class="fas fa-book text-6xl text-green-400 opacity-20"></i>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">Knowledge Base &amp; Short Guides</h3>
+            <p class="text-gray-400 mb-6">
+              Documented step-by-step notes for tools like Google Drive, Dropbox, Loom, and Teams. Focus on short
+              guides that real users can follow without guessing the next step.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold">Docs</span>
+              <span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">How-to
+                guides</span>
+              <span class="bg-orange-900 text-orange-200 px-3 py-1 rounded-full text-xs font-semibold">Internal
+                support</span>
+            </div>
+            <div class="border-t border-gray-700 pt-4">
+              <p class="text-sm text-gray-400 mb-3">
+                <i class="fas fa-check-circle text-green-400 mr-2"></i>Outcome: Faster answers for common questions and
+                fewer repeated explanations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500">
+          <div class="h-48 bg-gradient-to-br from-pink-900 to-orange-900 flex items-center justify-center">
+            <i class="fas fa-handshake text-6xl text-pink-400 opacity-20"></i>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">Onboarding &amp; Communication Flows</h3>
+            <p class="text-gray-400 mb-6">
+              Mapped out simple welcome flows and follow-up messages for new users, showing how IT support, CRM, and
+              customer communication can work together from day one.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold">Onboarding</span>
+              <span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">Email &amp;
+                in-app</span>
+              <span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold">Customer
+                journey</span>
+            </div>
+            <div class="border-t border-gray-700 pt-4">
+              <p class="text-sm text-gray-400 mb-3">
+                <i class="fas fa-check-circle text-green-400 mr-2"></i>Outcome: Clear path for new users and fewer
+                surprises for the support team.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="#contact"
+          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-12 rounded-lg transition-all">
+          Share Your Support Needs
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How I Work -->
+  <section id="process" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          How I <span class="text-gradient">Work</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          A simple process that keeps users supported, tools organized, and communication clear.
+        </p>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-12">
+        <div class="process-step" data-step="1">
+          <h3 class="text-2xl font-bold mb-2">Listen &amp; Understand</h3>
+          <p class="text-gray-300 mb-3">
+            I start by learning how your team works, what tools you use, and where people feel stuck. This can be a
+            short call or written notes.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Result: Clear list of tools, pain points, and support needs.
+          </p>
+        </div>
+
+        <div class="process-step" data-step="2">
+          <h3 class="text-2xl font-bold mb-2">Map Tools &amp; Flows</h3>
+          <p class="text-gray-300 mb-3">
+            Next, I map out how tickets, messages, and tasks move across your tools. This helps us see what can be
+            simplified or better documented.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Result: Simple view of your support process and key touchpoints.
+          </p>
+        </div>
+
+        <div class="process-step" data-step="3">
+          <h3 class="text-2xl font-bold mb-2">Set Up &amp; Clean Up</h3>
+          <p class="text-gray-300 mb-3">
+            I help tidy up folders, contacts, and workflows, and set up small changes like tags, templates, or basic
+            automations that make support work smoother.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Result: Easier navigation, cleaner data, and clearer steps for your team.
+          </p>
+        </div>
+
+        <div class="process-step" data-step="4">
+          <h3 class="text-2xl font-bold mb-2">Document &amp; Guide</h3>
+          <p class="text-gray-300 mb-3">
+            I create short guides, checklists, or simple videos so people know exactly what to do when a request comes
+            in or a tool misbehaves.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Result: Reusable help for your team and faster answers for users.
+          </p>
+        </div>
+
+        <div class="process-step" data-step="5">
+          <h3 class="text-2xl font-bold mb-2">Review &amp; Improve</h3>
+          <p class="text-gray-300 mb-3">
+            After things are live, we review what worked, what still feels heavy, and what can be improved. Small,
+            steady changes keep support strong.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Result: Ongoing improvements without chaos or confusion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          What People <span class="text-gradient">Say</span>
+        </h2>
+        <p class="text-xl text-gray-300">
+          Feedback from people I’ve worked and learned with.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Joanna pays attention to detail. When a tool gives trouble, she stays calm, checks the basics first, and
+            explains what she is doing in simple language."
+          </p>
+          <div>
+            <p class="font-semibold">Damilola A.</p>
+            <p class="text-gray-400 text-sm">IT Support Tutor</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "She is very organized with notes and follow-up. After each task she leaves clear records, which makes it
+            easy for the next person to continue the work."
+          </p>
+          <div>
+            <p class="font-semibold">Michael O.</p>
+            <p class="text-gray-400 text-sm">Team Lead (Training Project)</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Joanna has a strong customer mindset. She thinks about how the person on the other side of the screen is
+            feeling, not only about the system or tool in front of her."
+          </p>
+          <div>
+            <p class="font-semibold">Tolu E.</p>
+            <p class="text-gray-400 text-sm">Customer Experience Coach</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Her work with shared drives and folders helped us reduce confusion. Files are easy to find, and access
+            levels are set up in a smart way."
+          </p>
+          <div>
+            <p class="font-semibold">Grace N.</p>
+            <p class="text-gray-400 text-sm">Small Business Owner</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Joanna asks helpful questions before she acts. This saves time and makes sure the support she gives matches
+            what people actually need."
+          </p>
+          <div>
+            <p class="font-semibold">Kelvin I.</p>
+            <p class="text-gray-400 text-sm">Project Coordinator</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "She is still growing in the field, but her attitude, discipline, and curiosity already feel like someone
+            who supports users with care."
+          </p>
+          <div>
+            <p class="font-semibold">Adaeze C.</p>
+            <p class="text-gray-400 text-sm">Mentor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+          About <span class="text-gradient">Joanna</span>
+        </h2>
+
+        <div class="bg-gray-900 border border-gray-700 rounded-lg p-10">
+          <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+            I am Joanna Sylvester, focused on IT support, CRM, and customer-facing work. I am currently transitioning
+            into tech with clear direction: help teams keep their tools stable and make sure customers feel supported
+            and informed.
+          </p>
+
+          <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+            My learning path includes structured IT support classes, self-paced study, and practice projects where I
+            use tools like Google Drive, Dropbox, Slack, Loom, and Microsoft Teams. I enjoy breaking problems into small
+            parts, checking the basics, and writing notes that someone else can easily follow.
+          </p>
+
+          <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+            I see IT support as continuous support. It is not only about fixing the issue once. It is about building a
+            simple, repeatable way for people to get help without feeling lost. That is why I care about documentation,
+            checklists, and how the message is delivered, not only the final answer.
+          </p>
+
+          <div class="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-6">
+            <h3 class="font-bold text-xl mb-4">What you can expect from me:</h3>
+            <ul class="space-y-3">
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I ask clear questions before I start, so we solve the right problem.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I write notes and guides that non-technical people can understand.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I respect people’s time by keeping communication short, warm, and direct.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I care about privacy and data safety when dealing with customer and company
+                  information.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I treat every task, big or small, as a chance to build trust.</span>
+              </li>
+            </ul>
+          </div>
+
+          <p class="text-lg text-gray-300 leading-relaxed">
+            If you need someone who is growing in IT but already serious about process, clarity, and customer care, I
+            would be glad to support your team.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Common <span class="text-gradient">Questions</span>
+        </h2>
+        <p class="text-xl text-gray-300">
+          A few quick answers about working with me.
+        </p>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-4">
+        <div class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all">
+            <h3 class="text-lg font-semibold">What kind of work do you take on?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              I support teams with day-to-day IT tasks, simple tool setups, CRM updates, documentation, and customer
+              communication. If it touches users, tools, and clear steps, I can usually help.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all">
+            <h3 class="text-lg font-semibold">Are you available for remote work?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Yes. I am set up for remote work and comfortable using collaboration tools for calls, messages, and
+              screen-sharing sessions.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all">
+            <h3 class="text-lg font-semibold">How experienced are you?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              I am early in my formal IT career but have invested real effort in classes, practice work, and support
+              tasks. I focus on doing fewer things very well rather than trying to do everything at once.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all">
+            <h3 class="text-lg font-semibold">Can you work with my existing IT or support team?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Yes. I fit in best as support around existing leads and specialists, helping with follow-up tasks,
+              documentation, and day-to-day support activities.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all">
+            <h3 class="text-lg font-semibold">How do we get started?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Send me a short message with your tools, team size, and main challenges. From there, we can have a quick
+              call or chat and plan simple, clear next steps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+          Ready to <span class="text-gradient">Connect?</span>
+        </h2>
+
+        <div class="bg-gray-900 border border-gray-700 rounded-lg p-10">
+          <form id="contact-form" class="space-y-6" action="mailto:sylvesterjoannaunyii@gmail.com" method="post"
+            enctype="text/plain">
+            <div>
+              <label for="name" class="block text-sm font-semibold mb-2">Your Name</label>
+              <input type="text" id="name" name="name" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                placeholder="Your name" />
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-semibold mb-2">Your Email</label>
+              <input type="email" id="email" name="email" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                placeholder="you@unyii.github.io" />
+            </div>
+
+            <div>
+              <label for="project" class="block text-sm font-semibold mb-2">What do you need help with?</label>
+              <input type="text" id="project" name="project" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                placeholder="IT support, CRM, documentation, or something else?" />
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-semibold mb-2">Extra details (optional)</label>
+              <textarea id="message" name="message" rows="5"
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all resize-none"
+                placeholder="Tools you use, team size, timing, or anything important."></textarea>
+            </div>
+
+            <button type="submit"
+              class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all">
+              Send Message
+            </button>
+
+            <p class="text-gray-400 text-center text-sm mt-2">
+              You can also reach me directly on social media if that is easier.
+            </p>
+          </form>
+
+          <div class="mt-10 pt-10 border-t border-gray-700">
+            <h3 class="font-semibold mb-6 text-center">Connect with me:</h3>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+              <a href="https://instagram.com/jo.an.na_sylvester" target="_blank"
+                class="text-center text-gray-300 hover:text-blue-400 transition-all">
+                <i class="fab fa-instagram text-3xl mb-2"></i>
+                <p class="text-sm">@JoannaSylvester</p>
+              </a>
+              <a href="https://x.com/SylvesterJoann3" target="_blank"
+                class="text-center text-gray-300 hover:text-blue-400 transition-all">
+                <i class="fab fa-x-twitter text-3xl mb-2"></i>
+                <p class="text-sm">@JoannaSylvester</p>
+              </a>
+              <a href="https://linkedin.com/in/Joanna-Sylvester" target="_blank"
+                class="text-center text-gray-300 hover:text-blue-400 transition-all">
+                <i class="fab fa-linkedin text-3xl mb-2"></i>
+                <p class="text-sm">@JoannaSylvester</p>
+              </a>
+              <a href="mailto:sylvesterjoannaunyii@gmail.com"
+                class="text-center text-gray-300 hover:text-blue-400 transition-all">
+                <i class="fas fa-envelope text-3xl mb-2"></i>
+                <p class="text-sm">Email Joanna</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-800 py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">
+            Joanna<span class="text-blue-500">Support</span>
+          </h3>
+          <p class="text-gray-400 text-sm">
+            IT Support &amp; CRM professional helping teams keep tools stable and customers supported with care.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-4">Focus Areas</h4>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li><a href="#skills" class="hover:text-blue-400 transition-all">IT Support</a></li>
+            <li><a href="#skills" class="hover:text-blue-400 transition-all">CRM &amp; Customer Data</a></li>
+            <li><a href="#skills" class="hover:text-blue-400 transition-all">Customer Experience</a></li>
+            <li><a href="#skills" class="hover:text-blue-400 transition-all">Internal Documentation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-4">Connect</h4>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li><a href="https://x.com/SylvesterJoann3" target="_blank" class="hover:text-blue-400 transition-all">X /
+                Twitter</a></li>
+            <li><a href="https://linkedin.com/in/Joanna-Sylvester" target="_blank"
+                class="hover:text-blue-400 transition-all">LinkedIn</a></li>
+            <li><a href="https://instagram.com/jo.an.na_sylvester" target="_blank"
+                class="hover:text-blue-400 transition-all">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@JoannaSylvester" target="_blank"
+                class="hover:text-blue-400 transition-all">TikTok</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-4">Pages</h4>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li><a href="#home" class="hover:text-blue-400 transition-all">Home</a></li>
+            <li><a href="#projects" class="hover:text-blue-400 transition-all">Projects</a></li>
+            <li><a href="#faq" class="hover:text-blue-400 transition-all">FAQ</a></li>
+            <li><a href="#contact" class="hover:text-blue-400 transition-all">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 pt-8">
+        <p class="text-gray-500 text-sm text-center">
+          &copy; 2025 Joanna Sylvester. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="fixed bottom-8 right-8">
+    <a href="#home"
+      class="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- Mobile Navigation Menu -->
+  <div class="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 hidden" id="mobile-menu">
+    <div class="container mx-auto px-4 py-6">
+      <div class="flex justify-between items-center mb-8">
+        <h1 class="text-2xl font-bold">
+          Joanna<span class="text-blue-500">Support</span>
+        </h1>
+        <button class="focus:outline-none" id="close-menu">
+          <i class="fas fa-times text-2xl"></i>
+        </button>
+      </div>
+
+      <div class="flex flex-col space-y-6">
+        <a href="#home" class="text-xl font-medium">Home</a>
+        <a href="#skills" class="text-xl font-medium">Skills</a>
+        <a href="#projects" class="text-xl font-medium">Projects</a>
+        <a href="#process" class="text-xl font-medium">Process</a>
+        <a href="#testimonials" class="text-xl font-medium">Testimonials</a>
+        <a href="#faq" class="text-xl font-medium">FAQ</a>
+        <a href="#contact" class="text-xl font-medium">Contact</a>
+      </div>
+
+      <div class="mt-10 flex justify-center space-x-6">
+        <a href="https://linkedin.com/in/Joanna-Sylvester" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-linkedin text-2xl"></i>
+        </a>
+        <a href="https://x.com/SylvesterJoann3" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-x-twitter text-2xl"></i>
+        </a>
+        <a href="https://instagram.com/jo.an.na_sylvester" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-instagram text-2xl"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile Menu Logic
+    document.addEventListener("DOMContentLoaded", function () {
+      const mobileMenuButton = document.querySelector(".md\\:hidden button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const closeMenuButton = document.getElementById("close-menu");
+      const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
+
+      if (mobileMenuButton && mobileMenu && closeMenuButton) {
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.remove("hidden");
+        });
+
+        closeMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.add("hidden");
+        });
+
+        mobileMenuLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            mobileMenu.classList.add("hidden");
+          });
+        });
+      }
+
+      // FAQ Toggle Logic
+      window.toggleFaq = function (element) {
+        const isActive = element.classList.contains("active");
+
+        // Close all other FAQs
+        document.querySelectorAll(".faq-item").forEach(item => {
+          item.classList.remove("active");
+          const chevron = item.querySelector(".fa-chevron-down");
+          if (chevron) {
+            chevron.style.transform = "rotate(0deg)";
+          }
+        });
+
+        // Toggle current FAQ
+        if (!isActive) {
+          element.classList.add("active");
+          const chevron = element.querySelector(".fa-chevron-down");
+          if (chevron) {
+            chevron.style.transform = "rotate(180deg)";
+          }
+        }
+      };
+    });
+  </script>
+</body>
+
+</html>

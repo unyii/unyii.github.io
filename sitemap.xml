@@ -3,10 +3,10 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- MAIN PORTFOLIO -->
+  <!-- Main Page -->
   <url>
     <loc>https://unyii.github.io/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 
@@ -16,10 +16,10 @@
     </image:image>
   </url>
 
-  <!-- PAGE 2 -->
+  <!-- Portfolio Page -->
   <url>
-    <loc>https://unyii.github.io/2/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://unyii.github.io/portfolio/</loc>
+    <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
 
