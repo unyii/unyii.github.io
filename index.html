@@ -55,24 +55,24 @@
 
     <!-- Schema Markup -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Joanna Sylvester",
-      "url": "https://unyii.github.io/",
-      "image": "https://unyii.github.io/images/joanna-sylvester-preview.png",
-      "jobTitle": "IT Support & CRM Specialist",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freelance / Open To Work"
-      },
-      "sameAs": [
-        "https://x.com/SylvesterJoann3",
-        "https://linkedin.com/in/Joanna-Sylvester",
-        "https://instagram.com/jo.an.na_sylvester"
-      ]
-    }
-  </script>
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Joanna Sylvester",
+        "url": "https://unyii.github.io/",
+        "image": "https://unyii.github.io/images/joanna-sylvester-preview.png",
+        "jobTitle": "IT Support & CRM Specialist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance / Open To Work"
+        },
+        "sameAs": [
+          "https://x.com/SylvesterJoann3",
+          "https://linkedin.com/in/Joanna-Sylvester",
+          "https://instagram.com/jo.an.na_sylvester"
+        ]
+      }
+    </script>
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="/manifest.json" />
@@ -1208,14 +1208,13 @@
 
           try {
             const response = await fetch(
-              "https://nobleosinachi-email-api.onrender.com/joan-form",
-              {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json"
-                },
-                body: JSON.stringify(formData)
-              }
+              "https://nobleosinachi-email-api.onrender.com/joan-form", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify(formData)
+            }
             );
 
             const result = await response.json();
@@ -1242,15 +1241,6 @@
             submitButton.textContent = "Send Message";
           }
         });
-
-
-
-
-
-
-
-
-
 
 
         // FAQ Toggle Logic
